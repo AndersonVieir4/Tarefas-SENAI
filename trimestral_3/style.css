@@ -1,0 +1,55 @@
+h3{
+	font-size: 50px;
+	font-family: monospace;
+	color: #fff;
+}
+
+nav.interface {
+    
+    width:100%;
+    float:left; 
+    text-align:center;  
+    background-color: #2a66a6;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #000000;
+	color: rgb(0, 0, 0);
+	height: 50px;
+	width: 100px;
+}
+    
+a{
+	text-decoration: none;
+	color: floralwhite;
+}
+
+.container {
+	background: #569e9e;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+    width: 50%;
+}
+
+h4{
+	font-size: 20px;
+	font-family: monospace;
+	color: rgb(207, 192, 192);
+}
+
+::placeholder{
+	text-align: center;
+}
+
+input{
+	border-radius: 10px;
+	border-color: #2a66a6;
+}
