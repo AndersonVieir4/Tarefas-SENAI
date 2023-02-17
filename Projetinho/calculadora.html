@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do rendimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <h5>Como se calcula a porcentagem de lucro ?</h5>
+    <p id="texto">Quanto rendeu à poupança em 2022? A taxa Selic estava em 13,75% ao ano. Assim, o rendimento da poupança é de 0,5% ao mês + Taxa Referencial. Ou seja, o rendimento anual é de 7,44% ou cerca de 0,6501% ao mês.</p>
+    <h3>Quanto rende a poupança hoje?</h3>
+    <p id="texto">Hoje, a taxa Selic se encontra em 13,75% ao ano. Assim, o rendimento da poupança é de 0,5% ao mês + T.R, que está próxima de zero.
+        O valor da Selic impacta diretamente em vários investimentos de renda fixa. O que, é claro, não deixa a poupança de fora.</p> 
+
+    <h3>Quanto rende a poupança ao ano?</h3>
+    <p id="texto">Quer saber quanto rende a poupança ao ano?  O rendimento da poupança em outubro está em 0,6501 % mensal ou 7,44% anual.</p>
+
+    <h3>Quanto rende a poupança ao mês?</h3>
+    <p id="texto">O rendimento da poupança é de 0,5% ao mês + T.R. Nesse sentido, se aplicarmos o juros da poupança mensal em um investimento de R$ 1.000 hoje, depois de 1 mês sua aplicação estará pouco mais de R$1.005,00.</p>
+    
+    <h3>Qual poupança rende mais?</h3>
+    <p id="texto">Ao abrir uma conta poupança, muitas pessoas podem se perguntar: “Qual banco rende mais na poupança?”. Porém, o rendimento da poupança é igual para todos, ou seja, poupança Caixa, poupança Santander, poupança Itaú ou poupança Bradesco rendem a mesma coisa.
+Então, a remuneração é uma só, e vale para todos os bancos que oferecem o serviço. Por isso, depositando R$ 1.000 na conta poupança em qualquer instituição, você terá o seguinte valor em 1 ano:</p> 
+
+<li>Rendimento poupança Caixa: R$ 61,70</li>
+<li>Rendimento poupança Banco do Brasil: R$ 61,70</li>
+<li>Rendimento poupança Itaú: R$ 61,70</li>
+<li>Rendimento poupança Santander: R$ 61,70</li>
+<li>Rendimento poupança Bradesco: R$ 61,70</li>
+<br><br><br>
+<h3>Como usar a calculadora ?</h3>
+<p id="texto">Por exemplo, se você quer calcular 35% de 500, multiplique 35 por 500. Fazendo isso você obtém o valor de 35 x 500 = 17500; Divida o resultado obtido por 100</p>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+        <div class="calculadora">
+            <h2>Calculadora</i></h2>
+            <p id="resultado"></p>
+                <table>                 
+                    <tr>
+                        <td><button class="botao" onclick="clean()">C</td>
+                        <td><button class="botao" onclick="back()"><</td>
+                        <td><button class="botao" onclick="insert('/')">/</button></td>
+                        <td><button class="botao" onclick="insert('*')">X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('7')">7</button></td>
+                        <td><button class="botao" onclick="insert('8')">8</button></td>
+                        <td><button class="botao" onclick="insert('9')">9</button></td>
+                        <td><button class="botao" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('4')">4</button></td>
+                        <td><button class="botao" onclick="insert('5')">5</button></td>
+                        <td><button class="botao" onclick="insert('6')">6</button></td>
+                        <td><button class="botao" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('1')">1</button></td>
+                        <td><button class="botao" onclick="insert('2')">2</button></td>
+                        <td><button class="botao" onclick="insert('3')">3</button></td>
+                        <td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
+                        <td><button class="botao" onclick="insert('.')">.</button></td>
+                    </tr>
+                </table>
+        </div>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
